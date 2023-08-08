@@ -24,9 +24,9 @@ public class Homecontroller {
 		
 	}
 	@GetMapping("/alldata")
-	public Iterable<Student5> getdata(@RequestBody Student5 s){
-		Iterable<Student5> itr=hs.getalldata(s);
-		return null;
+	public Iterable<Student5> getdata(){
+		Iterable<Student5> itr=hs.getalldata();
+		return itr;
 		
 	}
 

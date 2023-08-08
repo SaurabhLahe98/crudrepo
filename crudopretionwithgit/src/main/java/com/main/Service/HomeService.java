@@ -6,6 +6,6 @@ public interface HomeService {
 
 public	void saveData(Student5 s);
 
-public Iterable<Student5> getalldata(Student5 s);
+public Iterable<Student5> getalldata();
 
 }

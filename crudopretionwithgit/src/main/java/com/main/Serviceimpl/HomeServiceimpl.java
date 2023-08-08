@@ -20,7 +20,7 @@ public class HomeServiceimpl implements HomeService{
 	}
 
 	@Override
-	public Iterable<Student5> getalldata(Student5 s) {
+	public Iterable<Student5> getalldata() {
 		// TODO Auto-generated method stub
 		return hr.findAll();
 	}
